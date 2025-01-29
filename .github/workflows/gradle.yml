@@ -21,4 +21,4 @@ jobs:
       run: chmod +x KotlinHomework3.1/gradlew
     - name: Build with Gradle
       working-directory: KotlinHomework3.1
-      run: ./gradlew wrapper --info; ./gradlew build --info
+      run: ./gradlew wrapper; ./gradlew build --info
