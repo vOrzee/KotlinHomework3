@@ -20,4 +20,4 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x KotlinHomework3.1/gradlew
     - name: Build with Gradle
-      run: KotlinHomework3.1/gradlew build --info
+      run: cd KotlinHomework3.1 && ./gradlew build --info
